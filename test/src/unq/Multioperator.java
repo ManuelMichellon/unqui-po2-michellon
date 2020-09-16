@@ -20,7 +20,7 @@ public class Multioperator {
 	}
 
 	public int sumNumbers() {
-		int result = 0;
+		Integer result = 0;
 		for (Integer integer : numbers) {
 			result = result + integer;
 		}
@@ -29,16 +29,16 @@ public class Multioperator {
 	}
 	
 	public int subtractNumbers() {
-		int result = 0;
+		Integer result = 0;
 		for (Integer integer : numbers) {
-			result = result - integer;
+			result = integer - result;
 		}
 		
 		return result;	
 	} 
 	
 	public int multiplyNumbers() {
-		int result = 0;
+		Integer result = 1;
 		for (Integer integer : numbers) {
 			result = result * integer;
 		}

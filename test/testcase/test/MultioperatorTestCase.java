@@ -37,7 +37,7 @@ class MultioperatorTestCase {
 	public void testSubtract() {
 		Integer subtractMulti = multioperator.subtractNumbers();
 		
-		assertEquals(subtractMulti, -8);
+		assertEquals(subtractMulti, 2);
 	}
 	
 	@Test
