@@ -1,7 +1,11 @@
-package supermercado;
+package test;
+
+
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import unq.Producto;
 
 import static org.junit.jupiter.api.Assertions.*;
 
