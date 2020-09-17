@@ -1,7 +1,5 @@
 package unq;
 
-import java.util.function.BooleanSupplier;
-
 public class Rectangle {
 	
 	private Point firstPoint;
