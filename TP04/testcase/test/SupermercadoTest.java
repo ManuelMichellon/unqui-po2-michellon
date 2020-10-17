@@ -1,7 +1,10 @@
-package supermercado;
+package test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import unq.Producto;
+import unq.Supermercado;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,10 +14,13 @@ public class SupermercadoTest {
 	private Producto detergente;
 	private Supermercado supermercado;
 	
+	
 	@BeforeEach
 	public void setUp() {
 		arroz = new Producto("Arroz", 18.9d, true);
 		detergente = new Producto("Detergente", 75d);
+		
+		
 		supermercado = new Supermercado("Lo de Tito", "Av Zubeldia 801");
 		
 	}
@@ -34,4 +40,5 @@ public class SupermercadoTest {
 		supermercado.agregarProducto(detergente);
 		assertEquals(new Double(93.9), supermercado.getPrecioTotal());
 	}
+	
 }
